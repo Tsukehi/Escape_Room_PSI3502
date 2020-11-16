@@ -797,6 +797,9 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		private void PlayPointerHaptic( bool validLocation )
 		{
+			if (player.leftHand == null)
+				return;
+
 			if ( pointerHand != null )
 			{
 				if ( validLocation )
@@ -895,6 +898,9 @@ namespace Valve.VR.InteractionSystem
 			{
 				Vector3 playerFeetOffset = player.trackingOriginTransform.position - player.feetPositionGuess;
 				player.trackingOriginTransform.position = teleportPosition + playerFeetOffset;
+
+				if (player.leftHand == null)
+					return;
 
                 if (player.leftHand.currentAttachedObjectInfo.HasValue)
                     player.leftHand.ResetAttachedTransform(player.leftHand.currentAttachedObjectInfo.Value);
