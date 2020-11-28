@@ -63,8 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Guitar\SteamVR\WindowsHelper\SteamVR_Windows_Editor_Helper.cs" />
-    <None Include="Assets\Guitar\SteamVR\WindowsHelper\SteamVR_Windows_EditorHelper.asmdef" />
+    <Compile Include="Assets\SteamVR\WindowsHelper\SteamVR_Windows_Editor_Helper.cs" />
+    <None Include="Assets\SteamVR\WindowsHelper\SteamVR_Windows_EditorHelper.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -264,7 +264,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/Users/Akira/Desktop/Poli/Decimo Semestre/VR/Projetos/Escape_Room_PSI3502/Assets/Guitar/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/Akira/Desktop/Poli/Decimo Semestre/VR/Projetos/Escape_Room_PSI3502/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Users/Akira/Desktop/Poli/Decimo Semestre/VR/Projetos/Escape_Room_PSI3502/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
